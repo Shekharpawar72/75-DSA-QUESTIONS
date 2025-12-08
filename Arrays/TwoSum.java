@@ -5,15 +5,15 @@ import java.util.*;
 class TwoSum {
     public int[] twoSum(int[] nums, int target) {
 
-        int n = nums.length;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (target == nums[i] + nums[j]) {
-                    return new int[] { i, j };
+        int n = nums.length; // imse n length le liya array ka
+        for (int i = 0; i < n; i++) { // ye loop pehla element lega 
+            for (int j = i + 1; j < n; j++) { // ye dusra element lega
+                if (target == nums[i] + nums[j]) {// ye check karega ki dono element ka sum target ke barabar hai ki nahi
+                    return new int[] { i, j }; // agar barabar hai to unke index return kar dega
                 }
             }
         }
-        return new int[] {};
+        return new int[] {};// agar koi solution nahi mila to empty array return kar dega
     }
 
     public static void main(String[] args) {

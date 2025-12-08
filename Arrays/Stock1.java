@@ -1,9 +1,13 @@
 // ...existing code...
 package Arrays;
-import java.util.*;
+import java.util.*; 
+         // 
+
+         //
 class Stock1 {
     public int maxProfit(int[] prices) {
-       
+        // ye wala approach O(n) time complexity me kaam karta hai
+        //
         int maxprofit = 0;
         int minsofar = prices[0];
 

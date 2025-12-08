@@ -2,6 +2,8 @@ package Arrays;
 
 public class MissingNumber {
     public int missingNumber(int[] nums) {
+        // ye approach O(n) time complexity me kaam karta hai
+        // is questions me hum expected sum aur actual sum ka use karenge
         int n = nums.length;
         int expectedSum = n * (n + 1) / 2;
         int actualSum = 0;
