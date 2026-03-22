@@ -17,7 +17,7 @@ public class PrimeNumber {
             for(int i=2; i * i<=num; i++){  // we can also write i<=Math.sqrt(num) and it will work fine but i*i<=num is more efficient than i<=Math.sqrt(num) because it does not require the calculation of the square root.
                  if(num % i == 0){
                         isprime = false;
-                        break;
+                        break; /// if we find any divisor of num, we can break the loop because we already know that num is not a prime number.
                  }
             }
         }
