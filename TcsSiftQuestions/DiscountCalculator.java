@@ -31,7 +31,7 @@ public class DiscountCalculator {
         if(amount <1000){
             double finalamount = amount-(amount*5/100.0);
             System.out.printf("%.2f",finalamount);
-        }else if(1000 >= amount && amount< 5000){
+        }else if( amount >= 1000 && amount< 5000){
                  double finalamount = amount-(amount*10/100.0);
                  System.out.printf("%.2f",finalamount);
         }   else{
