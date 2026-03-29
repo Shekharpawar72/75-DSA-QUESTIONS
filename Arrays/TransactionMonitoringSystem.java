@@ -32,7 +32,7 @@ public class TransactionMonitoringSystem {
                  
                  
         }
-                 System.out.println("Transaction is valid " + "Sender: " + set + " Receiver: " + set + " Time: " + prevtime);
+                 System.out.println("No suspicious transactions detected." );
 
 
     }
